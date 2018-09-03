@@ -1,0 +1,50 @@
+.Landing {
+  background-color: #fff;
+  box-shadow: 0 0 30px 0px #d4d8d7;
+  border-radius: 6px;
+  flex: 1;
+}
+
+@media (min-width: 1024px) {
+  .Landing {
+    display: flex;
+    max-width: 1000px;
+    max-height: 700px;
+    margin: 3rem auto;
+  }
+}
+
+.hudddl-logo {
+  max-width: 120px;
+}
+
+.Landing-header {
+  color: #333;
+  display: flex;
+  border-bottom: 1px solid rgba(212, 216, 215, 0.4);
+  padding-bottom: 1.5rem;
+}
+
+.main-content {
+  margin: 4rem auto 0;
+  align-self: flex-end;
+  flex-grow: 1;
+  text-align: center;
+  max-width: 600px;
+}
+
+@media (min-width: 1024px) {
+  .main-content {
+    text-align: left;
+  }
+}
+
+p {
+  line-height: 1.5em;
+}
+
+strong {
+  background: linear-gradient(to right, #3aa4b0 0%, #29abe2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

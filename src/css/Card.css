@@ -1,0 +1,32 @@
+.card {
+  background-color: #fff;
+  padding: 2rem;
+  max-width: 350px;
+  height: 300px;
+  border-radius: 6px;
+  margin: 10% 2rem;
+  box-shadow: 0 0 30px 0px #666677;
+}
+
+@media (min-width: 480px) {
+  .card {
+    margin: 8rem auto;
+  }
+}
+
+.card .inner {
+  text-align: center;
+}
+
+.card .inner img {
+  max-width: 200px;
+  margin: 0 auto;
+}
+
+.card h3 {
+  margin: 1.5rem 0 0.5rem;
+}
+
+.card p {
+  margin: 0 auto;
+}

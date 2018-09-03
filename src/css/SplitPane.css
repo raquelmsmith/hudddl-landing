@@ -1,0 +1,45 @@
+@media (min-width: 1024px) {
+  .split-pane {
+    display: flex;
+    width: 100%;
+  }
+}
+
+.split-pane-left {
+  padding: 2rem;
+}
+
+@media (min-width: 1024px) {
+  .split-pane-left {
+    width: 40%;
+    position: relative;
+  }
+}
+
+.split-pane-right {
+  padding: 3rem 0;
+  background: linear-gradient(
+    135deg,
+    #6fd0bf 0%,
+    #53bfbb 20%,
+    #3aa4b0 40%,
+    #2aadc9 60%,
+    #49a3e2 80%,
+    #29abe2 100%
+  );
+  box-shadow: 0 0 20px 0px #d4d8d7;
+}
+
+@media (min-width: 1024px) {
+  .split-pane-right {
+    padding: 3rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .split-pane-right {
+    padding: 2rem;
+    width: 60%;
+    border-radius: 6px;
+  }
+}

@@ -1,0 +1,26 @@
+.slick-dots li.slick-active button:before,
+.slick-dots li button:before {
+  color: #fff;
+}
+
+.slick-dots {
+  bottom: 0;
+}
+
+.slick-next {
+  right: 2%;
+}
+
+.slick-prev {
+  left: 2%;
+}
+
+@media (min-width: 1024px) {
+  .slick-next {
+    right: -15px;
+  }
+
+  .slick-prev {
+    left: -15px;
+  }
+}

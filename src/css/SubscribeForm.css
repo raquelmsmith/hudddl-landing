@@ -1,0 +1,32 @@
+form {
+  box-shadow: 0 0 100px 0px rgba(212, 216, 215, 0.4);
+  border: 1px solid #d4d8d7;
+  border-left: 4px solid #f15c41;
+  margin: 4rem auto -4.5rem;
+  background: #fff;
+  display: flex;
+  max-width: 400px;
+  position: relative;
+}
+
+input {
+  padding: 2rem;
+  border: none;
+  flex-grow: 1;
+}
+
+input:focus {
+  outline: none;
+}
+
+@media (min-width: 1024px) {
+  input {
+    padding: 1rem;
+  }
+}
+
+button {
+  border: none;
+  color: #666677;
+  background-color: #fff;
+}

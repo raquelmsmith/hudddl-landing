@@ -1,0 +1,17 @@
+.navbar {
+  flex-grow: 1;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 0 0 0 1rem;
+}
+
+.navbar li {
+  padding: 0.5rem;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
